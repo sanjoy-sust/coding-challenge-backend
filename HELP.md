@@ -1,7 +1,7 @@
 # Read Me First
-The following was discovered as part of building this project:
+The following was discovered as part of building this projectEntity:
 
-* The original package name 'com. flask.app' is invalid and this project uses 'com.flask.app' instead.
+* The original package name 'com. flask.app' is invalid and this projectEntity uses 'com.flask.app' instead.
 
 # Getting Started
 

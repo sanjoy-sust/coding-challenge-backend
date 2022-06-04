@@ -2,22 +2,22 @@
 
 ## The case study: Application review
 
-Reviewing applications is one of the key activities, when starting a new project.
-To takle that challenge, BP ACCELERATOR Inc. wants to provide an API, via which applicant can hand in their application with past project experience.
+Reviewing applications is one of the key activities, when starting a new projectEntity.
+To takle that challenge, BP ACCELERATOR Inc. wants to provide an API, via which applicantEntity can hand in their application with past projectEntity experience.
 
 The software stores the data in a data base and generates a document, so the application can be reviewed by the HR department
 
 ## Product Requirements
 
-As an applicant at BP ACCELERATOR Inc.,
+As an applicantEntity at BP ACCELERATOR Inc.,
 
 - [ ] I want to provide my application via a REST-API, with the following data:
   - [ ] my work e-mail address
   - [ ] a name
   - [ ] a github user
-  - [ ] past projects (min 1)
-- [ ] for each past project I want to provide
-  - [ ] name of the project
+  - [ ] past projectEntities (min 1)
+- [ ] for each past projectEntity I want to provide
+  - [ ] name of the projectEntity
   - [ ] employment mode (options: freelance / employed)
   - [ ] capacity (options: part-time / full-time)
   - [ ] duration in months (allow to provide weeks)
@@ -31,8 +31,8 @@ As an application reviewer at BP ACCELERATOR Inc.,
 
 - [ ] I want to see an overview of all applications in the database
 - [ ] I want that when new data for an e-mail address is provided, all old data is automatically deleted
-- [ ] I want to easily generate and download a PDF document, that lists the data provided from the applicant
-  - [ ] the PDF contains the GitHub profile image of the applicant ([API](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api))
+- [ ] I want to easily generate and download a PDF document, that lists the data provided from the applicantEntity
+  - [ ] the PDF contains the GitHub profile image of the applicantEntity ([API](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api))
 
 ## Your Mission
 
@@ -43,7 +43,7 @@ For that, you'll need to provide a REST-API, set up a database and generate a PD
 You can use any boilerplate/approach you prefer, but try to keep it simple. We encourage you to use your favorite tools and packages to build a solid web application.
 
 You don't have to host your service publicly, but feel free to do that.
-Please include a description in the README.md how to run the project locally and provide us a well done description for the API.
+Please include a description in the README.md how to run the projectEntity locally and provide us a well done description for the API.
 
 The final delivery must be running with Docker.
 
@@ -54,10 +54,10 @@ The final delivery must be running with Docker.
 - Build a performant, clean and well-structured solution
 - Commit early and often. We want to be able to check your progress
 - Please complete your working solution within 2 days of receiving this challenge, and be sure to notify us with a link to your repo, when it is ready for review.
-- additionally to the solution, please hand-in the PDF document, filled with your actual project experience
+- additionally to the solution, please hand-in the PDF document, filled with your actual projectEntity experience
 
 **Happy coding!**
 
 ## License
 
-We have licensed this project under the MIT license so that you may use this for a portfolio piece (or anything else!).
+We have licensed this projectEntity under the MIT license so that you may use this for a portfolio piece (or anything else!).
